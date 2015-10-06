@@ -7,6 +7,7 @@ package kr.ac.embedded.kookmin.sales;
  * nonnegative.
  */
 
+//5주차 1번 과
 public class DiscountSale extends Sale {
 	private double	discount;	// A percent of the price. Cannot be negative.
 								

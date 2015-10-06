@@ -1,6 +1,7 @@
 package kr.ac.embedded.kookmin.api;
 import java.util.*;
 
+//5주차 2번 과
 public class ArrayListMagnet {
 
     //ArrayList객체 내의 모든 목록을 출력하는 메소드.
