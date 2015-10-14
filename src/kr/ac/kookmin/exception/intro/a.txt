@@ -1,0 +1,6 @@
+test.
+this is a.txt
+abcd
+efgh
+ijkl
+mnop

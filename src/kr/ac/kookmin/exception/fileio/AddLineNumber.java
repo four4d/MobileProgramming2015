@@ -34,17 +34,15 @@ public class AddLineNumber
              System.out.println(str);  //모니터링을 위한 콘솔 출력.
              outputStream.write(str);  //파일에 한 줄 출력.             
          }
-         
-          /**
-           구현하시오. 
-          **/
          inputStream.close( );
          outputStream.close( );
-      } catch(Exception e) {
-          System.out.println("error발생 : origianl.txt파일이 존재하는지 확인해주십시오.");
-      }
+         
+      } catch(FileNotFoundException e) {
+          System.out.println("파일이 존재하지 않습니다. original.txt파일을 확인해주세요.");
+      } catch(IOException e) {
+          System.out.println("I/O error발생");
+      } 
       
-      /** catch() 구문 작성하시오 **/
 
    }
 }
